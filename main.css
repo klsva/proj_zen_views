@@ -300,6 +300,9 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.05em;
   color: #ffffff;
 }
+.menu__link:hover {
+  color: #fab0c6;
+}
 @media (max-width: 720px) {
   .menu__body {
     position: fixed;
@@ -894,6 +897,9 @@ h1, h2, h3, h4, h5, h6 {
 .competitions-block__title a {
   color: #603e4e;
 }
+.competitions-block__title a:hover {
+  color: #863a5f;
+}
 
 .competitions-article {
   margin: 0 0 20px 0;
@@ -913,7 +919,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 12px 0;
 }
 .competitions-article__title a {
+  color: #603e4e;
+}
+.competitions-article__title a:visited {
   color: #946579;
+}
+.competitions-article__title a:hover {
+  color: #863a5f;
 }
 .competitions-article__text {
   font-family: Tahoma;
